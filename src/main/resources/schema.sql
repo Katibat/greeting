@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS table_greeting (
+	greeting_id INTEGER NOT NULL PRIMARY KEY AUTO_INCREMENT,
+	content VARCHAR(2000),
+	data DATE
+);
